@@ -1,4 +1,4 @@
-# Audio Extractor & Subtitle Generator
+# Video Subtitle Generator Using Python
 
 This project is a Python-based tool designed to extract audio from video files, transcribe the audio into text, and generate subtitles with precise synchronization. By utilizing **Whisper**, an advanced speech-to-text model by OpenAI, the application ensures high accuracy in transcription across multiple languages and accents.
 
