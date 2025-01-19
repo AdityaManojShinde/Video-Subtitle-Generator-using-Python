@@ -6,7 +6,7 @@ def replace_extension(filename : str) -> str:
     return converted_file
 
 #delete all files from video folder
-def delete_videos(dir_path):
+def delete_files(dir_path):
     # check if video folder exits
     if os.path.exists(dir_path):
         for file in os.listdir(dir_path): # <- returns list of file names in given folder

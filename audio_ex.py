@@ -3,7 +3,7 @@ import os
 import shutil
 from tkinter import filedialog , Tk
 
-from multi import replace_extension, delete_videos
+from multi import replace_extension, delete_files
 
 
 # Folder Paths
@@ -40,4 +40,4 @@ def get_audio():
     filename = replace_extension(os.path.basename(input_file_path))
     output_path = os.path.join(AUDIO_DIR,filename)
     extract_audio(input_file=input_file_path,output_file=output_path)
-    delete_videos(VIDEO_DIR)
+    delete_files(VIDEO_DIR)
