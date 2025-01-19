@@ -9,3 +9,4 @@ def test_whisper():
     with open("script.txt", 'w') as file:
         file.writelines(result["text"])
 
+
