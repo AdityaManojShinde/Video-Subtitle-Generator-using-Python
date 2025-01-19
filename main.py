@@ -1,4 +1,4 @@
-from tests import test_whisper
+#from tests import test_whisper
 from audio_ex import get_audio
 
 
