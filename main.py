@@ -6,7 +6,10 @@ from audio_ex import get_audio
 def main() -> None:
     # add all the processes
     get_audio()
-    
+
+    # test basic working of the wisper base model
+    #test_whisper()
+
 
 if __name__ == "__main__":
     main()

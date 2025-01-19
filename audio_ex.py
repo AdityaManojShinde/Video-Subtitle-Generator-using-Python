@@ -40,5 +40,3 @@ def get_audio():
     filename = replace_extension(os.path.basename(input_file_path))
     output_path = os.path.join(AUDIO_DIR,filename)
     extract_audio(input_file=input_file_path,output_file=output_path)
-
-
