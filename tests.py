@@ -8,3 +8,4 @@ def test_whisper():
     result = model.transcribe("audio.mp3")
     with open("script.txt", 'w') as file:
         file.writelines(result["text"])
+
