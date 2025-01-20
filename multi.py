@@ -1,8 +1,8 @@
 import os
     
 # make change file extension to .mp3
-def replace_extension(filename : str) -> str:
-    converted_file = filename.rsplit('.', 1)[0] + ".mp3"
+def replace_extension(filename : str,extension: str) -> str:
+    converted_file = filename.rsplit('.', 1)[0] + extension
     return converted_file
 
 #delete all files from video folder
