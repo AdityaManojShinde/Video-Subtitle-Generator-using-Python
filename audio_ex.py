@@ -15,7 +15,7 @@ def copy_video(video_path: str):
     if video_path:
         file_name = os.path.basename(video_path)
         folder_path = os.path.join(VIDEO_DIR,file_name)
-        shutil.copy(video_path, folder_path)
+        shutil.copy(video_path, folder_path) # <- copy video folder_path
         return folder_path
     return None
 
