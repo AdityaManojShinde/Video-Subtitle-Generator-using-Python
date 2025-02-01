@@ -38,7 +38,7 @@ def get_audio():
     delete_files(AUDIO_DIR) # <- empty audio folder
     video_path: str = get_video_path()
     input_file_path = copy_video(video_path=video_path) # <- copy videos to video folder and return their path 
-    filename = replace_extension(os.path.basename(input_file_path),".mp3")
+    filename = replace_extension(os.path.basename(input_file_path),".wav")
     output_path = os.path.join(AUDIO_DIR,filename)
     extract_audio(input_file=input_file_path,output_file=output_path)
     delete_files(VIDEO_DIR) # <- empty video folder
